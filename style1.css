@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-color: blue;
+	display: block;
+	height:inherit;
+	background-image: linear-gradient(to bottom right, blue,red );
+	background-size: 100% 100%;
+}
+html{
+	
 }
