@@ -1,11 +1,61 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	display: block;
-	height:inherit;
-	background-image: linear-gradient(to bottom right, blue,red );
-	background-size: 100% 100%;
+	margin: 0 0 0 0;
 }
 html{
+	margin: 0 0 0 0;
+	scroll-behavior: smooth;
+}
+#main{
+	margin: 0 0 0 0;
+	background-image: linear-gradient(45deg, cyan,magenta);
+	background-color:magenta;
+	position: absolute;
+	height:100%;
+	width:100%;
+	text-align: center;
+}
+.color{
+	position:absolute;
+	background-image: linear-gradient(45deg, cyan, magenta);
+	background-color:magenta;
+	text-align:center;
+	color:white;
+}
+#color2{
+
+}
+p{
+	color:white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 60pt;
+	margin-bottom:0px;
+}
+#enter{
+	position:absolute;
+	width:100%;
+	bottom:43%;
+}
+#nummer2{
+	width:100%;
+	position:absolute;
+	background-color:black;
+	text-align:center;
+	margin-top:0px;
+	height: 100%;
+}
+.text2{
+	font-size:12pt;
+	margin-top:0px;
+	margin-bottom:70px;
+}
+.longtext{
+	font-size:20pt;
 	
+}
+ol{
+	color:white;
+	width:20px;
+	position:absolute;
 }
